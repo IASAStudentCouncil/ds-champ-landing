@@ -1,0 +1,625 @@
+section.timeline {
+    width: 80%;
+    height: 800px;
+    margin: 50px 10%;
+    position: relative;
+}
+
+section.timeline .back-line{
+    margin-left: -12.5%;
+    width: 125%;
+    height: 600px;
+    background-image: url("../assets/angled-line1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position-x: center;
+    background-position-y: bottom;
+    position: relative;
+}
+
+section.timeline .hexagon {
+    height: 154px;
+    width: 154px;
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+section.timeline .hex1 .hexagon {
+    position: absolute;
+    top: 246px;
+    left: 10%;
+    background-color: #432CA0;
+}
+
+section.timeline .hex2 .hexagon {
+    position: absolute;
+    top: 335px;
+    left: 36.6%;
+    transform: translateX(-51.3px);
+    background-color: #7709FB;
+}
+
+section.timeline .hex3 .hexagon {
+    position: absolute;
+    top: 424px;
+    right: 36.6%;
+    transform: translateX(51.3px);
+    background-color: #B43BCD;
+
+}
+
+section.timeline .hex4 .hexagon {
+    position: absolute;
+    top: 512px;
+    right: 10%;
+    background-color: #E118B8;
+}
+
+section.timeline .hex1 .num {
+    position: absolute;
+    transform: translateX(74px);
+    top: 296px;
+    left: 10%;
+}
+
+section.timeline .hex2 .num {
+    position: absolute;
+    top: 384px;
+    left: 36.6%;
+    transform: translateX(23.3px);
+}
+
+section.timeline .hex3 .num {
+    position: absolute;
+    top: 478px;
+    right: 36.6%;
+    transform: translateX(-23.3px);
+}
+
+section.timeline .hex4 .num {
+    position: absolute;
+    top: 562px;
+    right: 10%;
+    transform: translateX(-74px);
+}
+
+section.timeline .line {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 0;
+    border: solid #FFFFFF 2px;
+    position: absolute;
+    z-index: -1;
+}
+
+section.timeline .hex1 .line {
+    top: 146px;
+    left: 10%;
+    transform: translateX(72px);
+}
+
+section.timeline .hex2 .line {
+    top: 234px;
+    left: 36.6%;
+    transform: translateX(23.3px);
+}
+
+section.timeline .hex3 .line {
+    top: 328px;
+    right: 36.6%;
+    transform: translateX(-25.3px);
+}
+
+section.timeline .hex4 .line {
+    top: 412px;
+    right: 10%;
+    transform: translateX(-74px);
+}
+
+section.timeline .circle {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+section.timeline .hex1 .circle {
+    top: 131px;
+    left: 10%;
+    transform: translateX(59px);
+    background-color: #432CA0;
+}
+
+section.timeline .hex2 .circle {
+    top: 219px;
+    left: 36.6%;
+    transform: translateX(10.3px);
+    background-color: #7709FB;
+}
+
+section.timeline .hex3 .circle {
+    top: 314px;
+    right: 36.6%;
+    transform: translateX(-12.3px);
+    background-color: #B43BCD;
+}
+
+section.timeline .hex4 .circle {
+    top: 399px;
+    right: 10%;
+    transform: translateX(-61px);
+    background-color: #E118B8;
+}
+
+section.timeline .text {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+}
+
+section.timeline .text p {
+    color: #888888;
+    margin: 5px 0;
+}
+
+section.timeline .text h4 {
+    margin: 0;
+}
+
+section.timeline .hex1 .text {
+    top: 66px;
+    left: 10%;
+    transform: translateX(-26px);
+}
+
+section.timeline .hex2 .text {
+    top: 154px;
+    left: 36.6%;
+    transform: translateX(-75px);
+}
+
+section.timeline .hex3 .text {
+    top: 249px;
+    right: 36.6%;
+    transform: translateX(70px);
+}
+
+section.timeline .hex4 .text {
+    top: 334px;
+    right: 10%;
+    transform: translateX(24px);
+}
+
+@media screen and (max-width: 1000px) {
+    section.timeline .hexagon {
+        height: 124px;
+        width: 124px;
+    }
+    
+    section.timeline .hex1 .hexagon {
+        top: 248px;
+    }
+
+    section.timeline .hex2 .hexagon {
+        transform: translateX(-41.3px);
+    }
+    
+    section.timeline .hex3 .hexagon {
+        transform: translateX(41.3px);
+    }
+    
+    section.timeline .hex4 .hexagon {
+        top: 510px;
+    }
+
+    section.timeline .hex1 .num {
+        transform: translateX(56px);
+        top: 286px;
+    }
+    
+    section.timeline .hex2 .num {
+        top: 370px;
+        transform: translateX(13.3px);
+    }
+    
+    section.timeline .hex3 .num {
+        top: 460px;
+        transform: translateX(-15.3px);
+    }
+    
+    section.timeline .hex4 .num {
+        top: 544px;
+        transform: translateX(-56px);
+    }
+
+    section.timeline .line {
+        height: 120px;
+    }
+
+    section.timeline .hex1 .line {
+        top: 156px;
+        left: 10%;
+        transform: translateX(58px);
+    }
+    
+    section.timeline .hex2 .line {
+        top: 244px;
+        left: 36.6%;
+        transform: translateX(17.3px);
+    }
+    
+    section.timeline .hex3 .line {
+        top: 338px;
+        right: 36.6%;
+        transform: translateX(-20.3px);
+    }
+    
+    section.timeline .hex4 .line {
+        top: 422px;
+        right: 10%;
+        transform: translateX(-60px);
+    }
+
+    section.timeline .circle {
+        height: 24px;
+        width: 24px;
+    }
+    
+    section.timeline .hex1 .circle {
+        top: 144px;
+        transform: translateX(48px);
+    }
+    
+    section.timeline .hex2 .circle {
+        top: 232px;
+        transform: translateX(7.3px);
+    }
+    
+    section.timeline .hex3 .circle {
+        top: 326px;
+        transform: translateX(-10.3px);
+    }
+    
+    section.timeline .hex4 .circle {
+        top: 410px;
+        transform: translateX(-50px);
+    }
+
+    section.timeline .hex1 .text {
+        top: 79px;
+        transform: translateX(-37px);
+    }
+    
+    section.timeline .hex2 .text {
+        top: 167px;
+        transform: translateX(-83px);
+    }
+    
+    section.timeline .hex3 .text {
+        top: 262px;
+        transform: translateX(76px);
+    }
+    
+    section.timeline .hex4 .text {
+        top: 347px;
+        transform: translateX(38px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section.timeline .hex1 .hexagon {
+        top: 252px;
+    }
+    
+    section.timeline .hex3 .hexagon {
+        top: 418px;
+    }
+    
+    section.timeline .hex4 .hexagon {
+        top: 500px;
+    }
+    
+    section.timeline .hex3 .num {
+        top: 454px;
+    }
+    
+    section.timeline .hex4 .num {
+        top: 536px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.timeline {
+        height: 650px;
+    }
+
+    section.timeline .hexagon {
+        height: 84px;
+        width: 84px;
+    }
+    
+    section.timeline .hex1 .hexagon {
+        top: 254px;
+    }
+
+    section.timeline .hex2 .hexagon {
+        transform: translateX(-28px);
+    }
+    
+    section.timeline .hex3 .hexagon {
+        transform: translateX(28px);
+    }
+    
+    section.timeline .hex4 .hexagon {
+        top: 504px;
+    }
+
+    section.timeline .hex1 .num {
+        transform: translateX(38px);
+        top: 270px;
+    }
+    
+    section.timeline .hex2 .num {
+        top: 350px;
+        transform: translateX(10.3px);
+    }
+    
+    section.timeline .hex3 .num {
+        top: 434px;
+        transform: translateX(-8.3px);
+    }
+    
+    section.timeline .hex4 .num {
+        top: 520px;
+        transform: translateX(-38px);
+    }
+
+    section.timeline .hex1 .line {
+        transform: rotate(30deg) translateX(73px);
+    }
+    
+    section.timeline .hex2 .line {
+        transform: rotate(30deg) translateX(45.3px);
+    }
+    
+    section.timeline .hex3 .line {
+        transform: rotate(30deg) translateX(18.3px);
+    }
+    
+    section.timeline .hex4 .line {
+        transform: rotate(30deg) translateX(-4.6px);
+    }
+
+    section.timeline .circle {
+        height: 18px;
+        width: 18px;
+    }
+    
+    section.timeline .hex1 .circle {
+        top: 190px;
+        left: 10%;
+        transform: translateX(86px);
+    }
+    
+    section.timeline .hex2 .circle {
+        top: 260px;
+        left: 36.6%;
+        transform: translateX(66.3px);
+    }
+    
+    section.timeline .hex3 .circle {
+        top: 346px;
+        right: 36.6%;
+        transform: translateX(54.3px);
+    }
+    
+    section.timeline .hex4 .circle {
+        top: 425px;
+        right: 10%;
+        transform: translateX(30px);
+    }
+
+    section.timeline .text{
+        text-align: right;
+        font-size: 14px;
+        width: 120px;
+    }
+
+    section.timeline .hex1 .text {
+        top: 123px;
+        transform: translateX(-15px);
+    }
+    
+    section.timeline .hex2 .text {
+        top: 180px;
+        transform: translateX(-36px);
+    }
+    
+    section.timeline .hex3 .text {
+        top: 286px;
+        transform: translateX(53px);
+    }
+    
+    section.timeline .hex4 .text {
+        top: 365px;
+        transform: translateX(30px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section.timeline .hex1 .hexagon {
+        top: 260px;
+    }
+
+    section.timeline .hex2 .hexagon {
+        transform: translateX(-28px);
+    }
+    
+    section.timeline .hex3 .hexagon {
+        top: 408px;
+    }
+    
+    section.timeline .hex4 .hexagon {
+        top: 494px;
+    }
+
+    section.timeline .hex1 .num {
+        top: 276px;
+    }
+    
+    section.timeline .hex3 .num {
+        top: 424px;
+    }
+    
+    section.timeline .hex4 .num {
+        top: 510px;
+    }
+
+    section.timeline .text{
+        text-align: right;
+        font-size: 12px;
+        width: 80px;
+    }
+
+    section.timeline .hex1 .text {
+        top: 133px;
+        transform: translateX(25px);
+    }
+    
+    section.timeline .hex2 .text {
+        top: 190px;
+        transform: translateX(20px);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    section.timeline {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        height: 550px;
+    }
+
+    section.timeline .back-line {
+        height: 500px;
+    }
+
+    section.timeline .hexagon {
+        height:54px;
+        width: 54px;
+    }
+
+    section.timeline .hex1 .hexagon {
+        top: 160px;
+    }
+
+    section.timeline .hex2 .hexagon {
+        top: 226px;
+        transform: translateX(-28px);
+    }
+    
+    section.timeline .hex3 .hexagon {
+        top: 294px;
+        transform: translateX(0px);
+    }
+    
+    section.timeline .hex4 .hexagon {
+        top: 359px;
+        transform: translateX(-32px);
+    }
+
+    section.timeline .hex1 .num {
+        top: 162px;
+        transform: translateX(24px);
+    }
+    
+    section.timeline .hex2 .num {
+        top: 226px;
+        transform: translateX(-6px);
+    }
+    
+    section.timeline .hex3 .num {
+        top: 294px;
+        transform: translateX(-22px);
+    }
+    
+    section.timeline .hex4 .num {
+        top: 361px;
+        transform: translateX(-54px);
+    }
+
+    section.timeline .line {
+        height: 100px;
+        width: 0;
+        border-width: 1px;
+    }
+    
+    section.timeline .hex1 .line {
+        top: 56px;
+        transform: rotate(30deg) translateX(63px);
+    }
+    
+    section.timeline .hex2 .line {
+        top: 144px;
+        transform: rotate(30deg) translateX(26.3px);
+    }
+    
+    section.timeline .hex3 .line {
+        top: 238px;
+        transform: rotate(30deg) translateX(-7px);
+    }
+    
+    section.timeline .hex4 .line {
+        top: 322px;
+        transform: rotate(30deg) translateX(-45px);
+    }
+    
+    section.timeline .circle {
+        height: 18px;
+        width: 18px;
+    }
+    
+    section.timeline .hex1 .circle {
+        top: 85px;
+        transform: translateX(70px);
+    }
+    
+    section.timeline .hex2 .circle {
+        top: 153px;
+        transform: translateX(40px);
+    }
+    
+    section.timeline .hex3 .circle {
+        top: 229px;
+        transform: translateX(28px);
+    }
+    
+    section.timeline .hex4 .circle {
+        top: 295px;
+        transform: translateX(-3px);
+    }
+
+    section.timeline .text{
+        width: 80px;
+    }
+
+    section.timeline .hex1 .text {
+        top: 33px;
+        transform: translateX(10px);
+    }
+    
+    section.timeline .hex2 .text {
+        top: 85px;
+        transform: translateX(20px);
+    }
+
+    section.timeline .hex3 .text {
+        top: 175px;
+        transform: translateX(40px);
+    }
+
+    section.timeline .hex4 .text {
+        top: 240px;
+        transform: translateX(0px);
+    }
+}

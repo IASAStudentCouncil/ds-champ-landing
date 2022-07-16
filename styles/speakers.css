@@ -1,0 +1,114 @@
+section.speakers {
+    width: 80%;
+    margin: 50px 10%;
+}
+
+section.speakers .container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+section.speakers .speaker {
+    background: radial-gradient(261.61% 98.05%  at 1.95% 3.59%, #100930 0%, #6A667E 100%);
+    border-radius: 70px;
+    background-clip: padding-box;
+    border: solid 4px transparent;
+    min-height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px;
+}
+
+section.speakers .speaker:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -4px;
+    border-radius: inherit;
+    background: radial-gradient(261.61% 98.05%  at 1.95% 3.59%, #513150 0%, #1E141B 100%);
+}
+
+section.speakers .header{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: -10px 0 0 -10px;
+}
+
+section.speakers .speaker img  {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+section.speakers .speaker h4 {
+    font-size: 24px;
+    margin: 20px 20px 10px 10px;
+}
+
+section.speakers .speaker h5 {
+    font-size: 20px;
+    margin: 0 20px 0 10px;
+}
+
+section.speakers .speaker .about {
+    margin: 0 20px 20px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: calc(100% - 40px);
+}
+
+@media screen and (max-width: 600px) {
+    section.speakers .speaker img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section.speakers .speaker {
+        border-radius: 45px;
+    }
+
+    section.speakers .speaker h4 {
+        font-size: 18px;
+        margin: 10px 10px 5px 5px;
+        width: calc(100% - 15px);
+    }
+    
+    section.speakers .speaker h5 {
+        font-size: 16px;
+        margin: 0 10px 0 5px;
+        width: calc(100% - 15px);
+    }
+
+    section.speakers .speaker .about {
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    section.speakers{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+
+    section.speakers .speaker img  {
+        width: 70px;
+        height: 70px;
+    }
+
+    section.speakers .speaker .about  {
+        width: calc(100% - 20px);
+    }
+
+    section.speakers .speaker p  {
+        font-size: 14px;
+    }
+}

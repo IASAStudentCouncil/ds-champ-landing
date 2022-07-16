@@ -1,0 +1,79 @@
+section.conditions {
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.conditions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+section.conditions ul li {
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+section.conditions ul li.second {
+    margin-left: 20%;
+}
+
+section.conditions ul li.third {
+    margin-left: 40%;
+}
+
+section.conditions ul li img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    section.conditions ul li {
+        width: 80%;
+    }
+    
+    section.conditions ul li.second {
+        margin-left: 10%;
+    }
+    
+    section.conditions ul li.third {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.conditions ul li {
+        width: 100%;
+    }
+    
+    section.conditions ul li.second {
+        margin-left: 0;
+    }
+    
+    section.conditions ul li.third {
+        margin-left: 0;
+    }
+
+    section.conditions ul li img {
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    section.conditions ul li h4 {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    section.conditions {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+}
