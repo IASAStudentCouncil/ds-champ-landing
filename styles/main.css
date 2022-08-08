@@ -1,8 +1,11 @@
 body {
     background-color: #100930;
-    overflow-x: hidden;
     color: white;
     margin: 0;
+}
+
+body .overflow-x-hidden {
+    overflow-x: hidden;
 }
 
 h1 {
