@@ -9,6 +9,7 @@ footer {
 footer img {
     width: 20%;
     height: fit-content;
+    max-width: 140px;
 }
 
 footer div{
