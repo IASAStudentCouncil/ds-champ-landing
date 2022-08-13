@@ -13,35 +13,42 @@ h1 span{
 @font-face {
     font-family: "Formular";
     src: url("Formular.ttf") format("truetype");
+    font-display: swap;
 }
 @font-face {
     font-family: "Formular";
     src: url("Formular-Bold.ttf") format("truetype");
     font-weight: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: "Formular";
     src: url("Formular-Italic.ttf") format("truetype");
     font-style: italic;
+    font-display: swap;
 }
 
 
 @font-face {
     font-family: "Futura";
     src: url("FuturaPT-Demi.ttf") format("truetype");
+    font-display: swap;
 }
 @font-face {
     font-family: "Futura";
     src: url("FuturaPT-Bold.ttf") format("truetype");
     font-weight: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: "Futura";
     src: url("FuturaPT-Light.ttf") format("truetype");
     font-style: italic;
+    font-display: swap;
 }
 @font-face {
     font-family: "Futura";
     src: url("FuturaPT-Light.ttf") format("truetype");
     font-weight: lighter;
+    font-display: swap;
 }
