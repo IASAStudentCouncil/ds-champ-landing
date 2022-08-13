@@ -180,7 +180,7 @@ nav {
 
     nav .menu-btn:checked~.logo {
         background-color: #1A1338;
-        width: 100%;
+        width: 90%;
         margin: 0;
         transition: max-height 0.1s ease-in-out;
     }
