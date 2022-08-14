@@ -55,32 +55,36 @@ section.timeline .hex4 .hexagon {
     background-color: #E118B8;
 }
 
+section.timeline .num {
+    font-size: 30px;
+}
+
 section.timeline .hex1 .num {
     position: absolute;
-    transform: translateX(74px);
-    top: 296px;
+    transform: translateX(70px);
+    top: 274px;
     left: 10%;
 }
 
 section.timeline .hex2 .num {
     position: absolute;
-    top: 384px;
+    top: 364px;
     left: 36.6%;
-    transform: translateX(23.3px);
+    transform: translateX(18.3px);
 }
 
 section.timeline .hex3 .num {
     position: absolute;
-    top: 478px;
+    top: 452px;
     right: 36.6%;
-    transform: translateX(-23.3px);
+    transform: translateX(-13.3px);
 }
 
 section.timeline .hex4 .num {
     position: absolute;
-    top: 562px;
+    top: 542px;
     right: 10%;
-    transform: translateX(-74px);
+    transform: translateX(-64px);
 }
 
 section.timeline .line {
@@ -212,23 +216,27 @@ section.timeline .hex4 .text {
         top: 510px;
     }
 
+    section.timeline .num {
+        font-size: 24px;
+    }
+
     section.timeline .hex1 .num {
         transform: translateX(56px);
-        top: 286px;
+        top: 270px;
     }
     
     section.timeline .hex2 .num {
-        top: 370px;
+        top: 356px;
         transform: translateX(13.3px);
     }
     
     section.timeline .hex3 .num {
-        top: 460px;
+        top: 444px;
         transform: translateX(-15.3px);
     }
     
     section.timeline .hex4 .num {
-        top: 544px;
+        top: 530px;
         transform: translateX(-56px);
     }
 
@@ -319,12 +327,12 @@ section.timeline .hex4 .text {
         top: 500px;
     }
     
-    section.timeline .hex3 .num {
-        top: 454px;
+    section.timeline .hex1 .num {
+        top: 276px;
     }
     
     section.timeline .hex4 .num {
-        top: 536px;
+        top: 522px;
     }
 }
 
@@ -352,6 +360,10 @@ section.timeline .hex4 .text {
     
     section.timeline .hex4 .hexagon {
         top: 504px;
+    }
+
+    section.timeline .num {
+        font-size: 16px;
     }
 
     section.timeline .hex1 .num {
