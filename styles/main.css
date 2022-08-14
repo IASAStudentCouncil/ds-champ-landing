@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+body.opened-nav {
+    overflow: hidden;
+}
+
 .overflow-hidden {
     overflow: hidden;
 }
