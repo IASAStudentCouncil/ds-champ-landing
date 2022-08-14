@@ -14,8 +14,6 @@ function positionHexs() {
         var circle_bound = circle.getBoundingClientRect();
         var text_bound = text.getBoundingClientRect();
 
-        console.log(backline_bound)
-
         const maxheight = backline_bound.width > 300 ? 600 : 500;
 
         //hexagon positioning
