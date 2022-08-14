@@ -1,15 +1,22 @@
 const parent = document.querySelector("#infopartners-repeat");
 const child = document.querySelector("#infopartners-repeat span");
 
-const parentWidth = parent.offsetWidth;
-
 const text = "Інформаційні партнери ";
 
 child.innerHTML = text;
 const width = child.offsetWidth;
 
-var numReps = Math.ceil(parentWidth / width);
+function widerInfopartners() {
+    if(window.outerWidth >= 400){
+        const parentWidth = parent.offsetWidth;
+        var numReps = Math.ceil(parentWidth / width);
 
-let res = text.repeat(numReps);
+        let res = text.repeat(numReps);
+        
+        child.innerHTML = res;
+    }
+}
 
-child.innerHTML = res;
+widerInfopartners();
+
+window.onresize = widerInfopartners;
