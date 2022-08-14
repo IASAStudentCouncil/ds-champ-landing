@@ -4,8 +4,8 @@ body {
     margin: 0;
 }
 
-body .overflow-x-hidden {
-    overflow-x: hidden;
+.overflow-hidden {
+    overflow: hidden;
 }
 
 h1 {
