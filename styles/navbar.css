@@ -17,8 +17,6 @@ nav {
     position: absolute;
     top: 5px;
     right: -28px;
-    /* -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
-    transition: all .4s cubic-bezier(.35, 1, .33, 1) */
 }
 
 .link-arrow:hover:after {
@@ -55,8 +53,6 @@ nav {
     background: none;
     width: 0;
     height: 2px;
-    /* -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
-    transition: all .4s cubic-bezier(.35, 1, .33, 1) */
 }
 
 .link:hover {
@@ -249,6 +245,16 @@ nav {
 
         nav .menu-icon {
             display: none;
+        }
+
+        .link:before {
+            -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+            transition: all .4s cubic-bezier(.35, 1, .33, 1)
+        }
+
+        .link-arrow:after {
+            -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+            transition: all .4s cubic-bezier(.35, 1, .33, 1)
         }
     }
 }
