@@ -18,5 +18,3 @@ function widerInfopartners() {
 }
 
 widerInfopartners();
-
-window.onresize = widerInfopartners;

@@ -458,6 +458,24 @@ section.timeline .hex4 .text {
     }
 }
 
+@media screen and (max-width: 450px) {
+    section.timeline .hex1 .hexagon {
+        left: 5%;
+    }
+
+    section.timeline .hex2 .hexagon {
+        left: 31%;
+    }
+
+    section.timeline .hex3 .hexagon {
+        right: 43%;
+    }
+
+    section.timeline .hex4 .hexagon {
+        right: 18%;
+    }
+}
+
 @media screen and (max-width: 400px) {
     section.timeline .hex1 .hexagon {
         top: 260px;
@@ -514,6 +532,8 @@ section.timeline .hex4 .text {
 
     section.timeline .back-line {
         height: 500px;
+        width: calc(100% + 20px);
+        margin-left: -10px;
     }
 
     section.timeline .hexagon {
@@ -523,21 +543,25 @@ section.timeline .hex4 .text {
 
     section.timeline .hex1 .hexagon {
         top: 160px;
+        left: 10px;
     }
 
     section.timeline .hex2 .hexagon {
         top: 226px;
         transform: translateX(-28px);
+        left: 33.6%;
     }
     
     section.timeline .hex3 .hexagon {
         top: 294px;
         transform: translateX(0px);
+        right: 38.6%;
     }
     
     section.timeline .hex4 .hexagon {
         top: 359px;
         transform: translateX(-32px);
+        right: 10%;
     }
 
     section.timeline .hex1 .num {
