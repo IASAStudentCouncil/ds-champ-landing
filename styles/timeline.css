@@ -482,7 +482,7 @@ section.timeline .hex4 .text {
     }
 
     section.timeline .hex1 .text {
-        top: 133px;
+        top: 120px;
         transform: translateX(25px);
     }
     
@@ -604,7 +604,7 @@ section.timeline .hex4 .text {
     }
 
     section.timeline .hex1 .text {
-        top: 33px;
+        top: 17px;
         transform: translateX(10px);
     }
     
