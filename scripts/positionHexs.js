@@ -23,36 +23,44 @@ function positionHexs() {
         hex.style.top = left_corner_y_positioned + "px";
         // number positioning
         num.style.left = (hex_bound.left + hex_bound.width / 2 - num_bound.width/2) + "px";
-        num.style.top = (left_corner_y_positioned + hex_bound.height * 0.45 - num_bound.height* 1.1) + "px";
         num.style.right = "unset";
+        // num.style.right = (hex_bound.right - hex_bound.width / 2 + num_bound.width/2) + "px";
+        // num.style.right = "unset";
+        num.style.top = (left_corner_y_positioned + hex_bound.height * 0.45 - num_bound.height* 1.1) + "px";
         num.style.transform = "none";
 
         if (backline_bound.width > 600) {
             // line positioning
             line.style.transform = "none";
             line.style.left = (hex_bound.left + hex_bound.width / 2 - line_bound.width/2) + "px";
+            // line.style.right = (hex_bound.left + hex_bound.width / 2 - line_bound.width/2) + "px";
             line.style.top = (left_corner_y_positioned - line_bound.height * 0.75) + "px";
             // circle positioning
             circle.style.left = (hex_bound.left + hex_bound.width / 2 - circle_bound.width/2) + "px"; 
+            // circle.style.right = (hex_bound.left + hex_bound.width / 2 - circle_bound.width/2) + "px"; 
             circle.style.top = (left_corner_y_positioned - line_bound.height * 0.75 - circle_bound.height/2) + "px";
             circle.style.transform = "none";
             // text positioning
             text.style.transform = "none";
             text.style.left = (hex_bound.left + hex_bound.width / 2 - text_bound.width/2) + "px";
+            // text.style.right = (hex_bound.left + hex_bound.width / 2 - text_bound.width/2) + "px";
             text.style.top = (left_corner_y_positioned - line_bound.height * 0.75 - circle_bound.height/2 - text_bound.height) + "px";
         }
         else {
             // line positioning
             line.style.transform = "rotate(30deg)";
             line.style.left = (hex_bound.left + hex_bound.width / 2 + line_bound.width/2 - 6) + "px";
+            // line.style.right = (hex_bound.left + hex_bound.width / 2 + line_bound.width/2 - 6) + "px";
             line.style.top = (left_corner_y_positioned + hex_bound.width * 0.45 - line_bound.height) + "px";
             // circle positioning
             circle.style.transform = "none";
             circle.style.left = (hex_bound.left + hex_bound.width / 2 + line_bound.width - circle_bound.width/2 - 6) + "px";
+            // circle.style.right = (hex_bound.left + hex_bound.width / 2 + line_bound.width - circle_bound.width/2 - 6) + "px";
             circle.style.top = (left_corner_y_positioned + hex_bound.width * 0.45 - line_bound.height) + "px";
             // text positioning
             text.style.transform = "none";
             text.style.left = (hex_bound.left + hex_bound.width / 2 + line_bound.width - 6 - text_bound.width + circle_bound.width/2 + 20) + "px";
+            // text.style.right = (hex_bound.left + hex_bound.width / 2 + line_bound.width - 6 - text_bound.width + circle_bound.width/2 + 20) + "px";
             text.style.top = (left_corner_y_positioned + hex_bound.width * 0.45 - line_bound.height  - text_bound.height) + "px";
         }
     }

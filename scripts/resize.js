@@ -3,4 +3,4 @@ function resize() {
     widerInfopartners();
 }
 
-window.onresize = resize;
+window.addEventListener('resize', resize, true);
