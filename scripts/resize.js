@@ -1,4 +1,4 @@
-const windowWidth = window.innerWidth;
+var windowWidth = window.innerWidth;
 
 function resize() {
     if (window.innerWidth != windowWidth){

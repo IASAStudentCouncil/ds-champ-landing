@@ -1,6 +1,6 @@
 function positionHexs() {
-    // const backline = document.querySelector(".back-line");
-    // var backline_bound = backline.getBoundingClientRect();
+    const backline = document.querySelector(".back-line");
+    var backline_bound = backline.getBoundingClientRect();
     for (var i = 1; i < 5; i++){
         const hex = document.querySelector(".hex" + i + " .hexagon");
         const num = document.querySelector(".hex" + i + " .num");
@@ -18,7 +18,7 @@ function positionHexs() {
 
         //hexagon positioning
         var left_corner_x = hex_bound.left + hex_bound.width / 4;
-        var left_corner_y_positioned = maxheight - (window.innerWidth - left_corner_x) * 400 / window.innerWidth - 0.05 * hex_bound.width;
+        var left_corner_y_positioned = maxheight - (backline_bound.width - left_corner_x) * 400 / backline_bound.width - 0.05 * hex_bound.width;
 
         hex.style.top = left_corner_y_positioned + "px";
         // number positioning
