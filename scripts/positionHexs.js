@@ -1,5 +1,5 @@
 function positionHexs() {
-    if (!navigator.userAgent.includes("Safari")){
+    // if (!navigator.userAgent.includes("Safari")){
         const backline = document.querySelector(".back-line");
         var backline_bound = backline.getBoundingClientRect();
         for (var i = 1; i < 5; i++){
@@ -66,6 +66,6 @@ function positionHexs() {
             }
         }
     }
-}
+// }
 
 positionHexs();
