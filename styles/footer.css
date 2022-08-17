@@ -8,7 +8,7 @@ footer {
 
 footer img {
     width: 20%;
-    height: fit-content;
+    object-fit: contain;
     max-width: 140px;
 }
 

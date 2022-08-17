@@ -5,7 +5,6 @@ section.conditions {
 }
 
 section.conditions ul {
-    margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -13,6 +12,7 @@ section.conditions ul {
 }
 
 section.conditions ul li {
+    margin: 0 0 40px 0;
     width: 60%;
     display: flex;
     flex-flow: row nowrap;
@@ -32,6 +32,10 @@ section.conditions ul li img {
     margin-right: 10px;
 }
 
+section.conditions ul li h4 {
+    font-size: larger;
+}
+
 @media screen and (max-width: 800px) {
     section.conditions ul li {
         width: 80%;
@@ -49,6 +53,7 @@ section.conditions ul li img {
 @media screen and (max-width: 600px) {
     section.conditions ul li {
         width: 100%;
+        margin: 0 0 20px 0;
     }
     
     section.conditions ul li.second {
@@ -67,6 +72,7 @@ section.conditions ul li img {
 
     section.conditions ul li h4 {
         margin-top: 10px;
+        /* font-size: 30px; */
     }
 }
 

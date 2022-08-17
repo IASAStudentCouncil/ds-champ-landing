@@ -21,7 +21,7 @@ section.speakers .speaker {
     max-width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    margin: 10px;
+    margin: 40px;
 }
 
 section.speakers .speaker:before {

@@ -36,6 +36,10 @@ section.infopartners .container {
     align-items: flex-start;
 }
 
+section.infopartners .infopartner {
+    margin: 0 15px;
+}
+
 section.infopartners .infopartner a {
     display: block;
     margin:10px;

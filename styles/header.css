@@ -1,7 +1,7 @@
 section.header-wrapper .header {
     margin: 0;
     margin-top: 100px;
-    height: 550px;
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,8 +26,8 @@ section.header-wrapper{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 50px;
-    top: 30px;
+    left: 5vw;
+    top: 10vh;
 
     background: linear-gradient(68.38deg, #4891FF 15%, #FE00AA 53.5%, #4891FF 80%);
     opacity: 1;
@@ -40,8 +40,8 @@ section.header-wrapper{
     position: absolute;
     width: 350px;
     height: 350px;
-    right: 10px;
-    bottom: 30px;
+    right: 10vw;
+    bottom: 13vh;
     
     background: conic-gradient(#FE00AA 60deg, #7BCBFF 100deg, #7BCBFF 200deg, #FE00AA 220deg, #FE00AA 260deg, #4891FF 270deg, #4891FF 320deg, #FE00AA 350deg); /* linear-gradient(46.8deg, #FE00AA 3.24%, #4891FF 68.02%); */
     opacity: 0.7;
@@ -72,7 +72,7 @@ section.header-wrapper{
     }
 
     section.header-wrapper .header {
-        height: 400px;
+        height: calc(100vh - 90px);
     }
 }
 
