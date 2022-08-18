@@ -54,7 +54,7 @@ footer .social-icons {
 footer .images {
     width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-flow: row nowrap;
 }
 
