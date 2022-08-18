@@ -52,7 +52,14 @@ section.header-wrapper{
 #made-by{
     position: absolute;
     font-weight: lighter;
-    bottom: 30px;
+    bottom: 50px;
+    width: 100%;
+}
+
+#hosted-by{
+    position: absolute;
+    font-weight: lighter;
+    bottom: 20px;
     width: 100%;
 }
 
