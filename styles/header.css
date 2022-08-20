@@ -16,8 +16,9 @@ section.header-wrapper{
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-    width: 100%;
+    width: 100vw;
     background-color: #1A1338;
+    height: 100vh;
 }
 
 #header-rectangle1 {

@@ -107,6 +107,12 @@ section.sponsors .sponsor.main:before{
     border-radius: inherit;
     background: radial-gradient(261.61% 98.05%  at 1.95% 3.59%, #513150 0%, #1E141B 100%);
 } */
+@media screen and (min-width: 1301px) {
+    section.sponsors .integral {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 1000px) {
     section.sponsors .integral {
