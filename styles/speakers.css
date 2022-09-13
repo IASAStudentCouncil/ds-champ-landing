@@ -64,6 +64,10 @@ section.speakers .speaker .about {
 }
 
 @media screen and (max-width: 600px) {
+    section.speakers .speaker {
+        margin: 20px;
+    }
+
     section.speakers .speaker img {
         width: 90px;
         height: 90px;
@@ -73,6 +77,7 @@ section.speakers .speaker .about {
 @media screen and (max-width: 400px) {
     section.speakers .speaker {
         border-radius: 45px;
+        margin: 20px 5px;
     }
 
     section.speakers .speaker h4 {
