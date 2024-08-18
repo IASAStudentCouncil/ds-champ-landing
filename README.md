@@ -1,4 +1,4 @@
-# IASA Data Science Championship
+# IASA DS Champ
 This landing page was designed to support a hackathon where Ukrainian students competed to showcase their skills in Data Science, Machine Learning, Deep Learning, and Artificial Intelligence.
 
 ## About the Hackathon
